@@ -22,8 +22,8 @@ const userRoutes = require('./routes/users')
 const reviewsRoutes = require('./routes/reviews') //review routes
 const User = require('./models/user') //require user model
 
-// const dbUrl = process.env.DB_URL //Atlas cloud DB
-const dbUrl = 'mongodb://localhost:27017/yelp-camp' //local DB
+const dbUrl = process.env.DB_URL //Atlas cloud DB
+// const dbUrl = 'mongodb://localhost:27017/yelp-camp' //local DB
 //connect to database
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
