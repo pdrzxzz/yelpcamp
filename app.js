@@ -126,6 +126,7 @@ app.config = function () {
     //initialize passport
     this.use(passport.initialize())
     this.use(passport.session()) //use application-level middleware (after session middleware)
+    //These 3 User methods below are defined via passport-local-mongoose 
     passport.use(new LocalStrategy(User.authenticate())); // tell passport to use LocalStrategy and the authentication method is on User method
     passport.serializeUser(User.serializeUser()); //how to store the user in the session
     passport.deserializeUser(User.deserializeUser()); //how to unstore the user in the session
