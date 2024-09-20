@@ -16,7 +16,7 @@ This project is a catalog of campgrounds where you can either comment on other c
 **ejs** -> Embedded JavaScript templates, Allow us to display and execute JS instructions before displaying server-side data into our front-end   
 **ejs-mate** -> Very useful to shrink our ejs files, gathering repeated code into a separated file which is refered by the others  
 
-##Data
+## Data  
 **mongoose** -> So we can connect and manipulate MongoDB with our JavaScript/Node.js   
 **connect-mongo** -> Allow us to store session data on MongoDB instead of default memory storage   
 **express-session** -> Session middleware for express, so we can have session data stored server-side (i.e. for user not have to login every time)  
