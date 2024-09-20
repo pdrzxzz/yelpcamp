@@ -8,6 +8,8 @@ This project is a catalog of campgrounds where you can either comment on other c
 
 ## Stylying
 **Bootstrap 5** framework
+**tarability.css** -> Pre-made star rating input, available on: https://github.com/LunarLogic/starability/tree/master
+**@mapbox/mapbox-sdk** -> A package for managing maps (more specific we used Mapbox GL JS which is a client-side JavaScript library for mapbox)  
 
 ## Server
 **express** -> Our web framework, the core of the web app  
@@ -20,9 +22,6 @@ This project is a catalog of campgrounds where you can either comment on other c
 **mongoose** -> So we can connect and manipulate MongoDB with our JavaScript/Node.js   
 **connect-mongo** -> Allow us to store session data on MongoDB instead of default memory storage   
 **express-session** -> Session middleware for express, so we can have session data stored server-side (i.e. for user not have to login every time)  
-
-## Media
-**@mapbox/mapbox-sdk** -> A package for managing maps (more specific we used Mapbox GL JS which is a client-side JavaScript library for mapbox)  
 **cloudinary** -> Cloudinary Node SDK which allow us to upload and manage cloud's assets (campground images)  
 **multer** -> Node.js middleware to handle file (img) inputs (in forms which enctype = multipart/form-data)  
 **multer-storage-cloudinary** -> multer storage engine for storing assets on Cloudinary  
@@ -41,6 +40,7 @@ This project is a catalog of campgrounds where you can either comment on other c
 **joi** -> Server-side data validation (Object schema validation)  
 
 ## Utilities
+**nodemon** -> To listen for code changes and restart the server automatically 
 **method-override** -> So we can use more http methods more than 'POST' via html forms for the same path (like PUT, DELETE, PATCH...)  
 **connect-flash** -> Flash messages middleware for express   
 **dotenv** -> Allow us to load environment variables from a .env files  
